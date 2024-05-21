@@ -36,30 +36,31 @@
         var listId = 0;
         var completed = 0;
         totalTask = 0;
-
         function addTask(){
             if(input_text.value === ''){
                 alert('Please enter the task');
             }
             else{
-                taskList.innerHTML += `<li id="list-${listId}">${input_text.value}</li>`;
+                
+                taskList.innerHTML += `
+                <div id="div-${listId}">
+                <li id="list-${listId}">${input_text.value}</li> <button onclick="completeTask('list-${listId}')" id="completebtn"> Complete </button> <button onclick="deleteTask('div-${listId}')" id="deletebtn"> Delete </button> 
+                </div>`;
                 totalTask++;
                 completedCounter.innerHTML = `<p>Completed ${completed} / ${totalTask}</p>`;
-
-                taskList.innerHTML += `<button onclick="completeTask('list-${listId}')" id="completebtn"> Complete </button>`;
-                taskList.innerHTML += `<button onclick="deleteTask('list-${listId}')" id="deletebtn"> Delete </button>`;
                 listId++;
             }
             input_text.value = "";     
                         
         }
 
-        function completeTask(listId){
+        function completeTask(listId,clickId){
             let task = document.getElementById(listId);
             
                 task.style.textDecoration = 'line-through'; 
                 completed++;
                 completedCounter.innerHTML = `<p>Completed ${completed} / ${totalTask}</p>`;
+                
         }
 
         function deleteTask(listId){
