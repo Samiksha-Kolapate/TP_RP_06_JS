@@ -1,0 +1,73 @@
+<!-- Till completedtasks and total task is done;; after deletion of task list id no deleting only content removing ;; totaltasks and completedTasks should also be updated after deletion -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To-do List</title>
+</head>
+<body>
+    <div class="container">
+        <div class="task">
+            <h1>To-Do List</h1>
+            <p id="completedId">Completed <span>0/0</span></p>
+            <div class="row">
+                <input type="text" id="inputId" placeholder="Enter your task">
+                <button onclick="addTask()" id="total_Task">Add task</button>
+            </div>
+            <div class = "list-container">
+                <ol id="list">
+    
+                </ol>
+            </div>
+        </div>
+        
+    </div>
+    <script>
+        
+        var input_text = document.getElementById("inputId");
+        var taskList = document.getElementById("list");
+        
+        var totalTask = document.getElementById("total_Task");
+        var completedCounter = document.getElementById("completedId");
+
+        
+        var listId = 0;
+        var completed = 0;
+        totalTask = 0;
+
+        function addTask(){
+            if(input_text.value === ''){
+                alert('Please enter the task');
+            }
+            else{
+                taskList.innerHTML += `<li id="list-${listId}">${input_text.value}</li>`;
+                totalTask++;
+                completedCounter.innerHTML = `<p>Completed ${completed} / ${totalTask}</p>`;
+
+                taskList.innerHTML += `<button onclick="completeTask('list-${listId}')" id="completebtn"> Complete </button>`;
+                taskList.innerHTML += `<button onclick="deleteTask('list-${listId}')" id="deletebtn"> Delete </button>`;
+                listId++;
+            }
+            input_text.value = "";     
+                        
+        }
+
+        function completeTask(listId){
+            let task = document.getElementById(listId);
+            
+                task.style.textDecoration = 'line-through'; 
+                completed++;
+                completedCounter.innerHTML = `<p>Completed ${completed} / ${totalTask}</p>`;
+        }
+
+        function deleteTask(listId){
+            let task = document.getElementById(listId);
+            task.innerHTML = "";
+            
+        }
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,105 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    padding: 10px;
+    min-height: 100vh;
+    background: linear-gradient(145deg,rgb(119, 28, 119),rgb(236, 192, 236));
+}
+
+.task{
+    max-width: 540px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+
+.task h1{
+    display: flex;
+    align-items: center;
+    color: gray;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#completedId{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: gray;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+input{
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 16px;
+}
+
+#total_Task{
+    border: none;
+    outline: none;
+    padding: 10px 10px;
+    margin-left: 170px ;
+    background: rgb(119, 28, 119);
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+.list-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+ol li{
+    font-size: 17px;
+    margin-left: 25px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+
+}
+
+#completebtn{
+    border: none;
+    outline: none;
+    padding: 10px 10px;
+    background: rgb(119, 28, 119);
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+#deletebtn{
+    
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    padding: 10px 10px;
+    background: rgb(119, 28, 119);
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 40px;
+}
