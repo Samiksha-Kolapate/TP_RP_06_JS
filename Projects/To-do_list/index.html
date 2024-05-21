@@ -42,11 +42,11 @@
             }
             else{
                 
+                totalTask++;
                 taskList.innerHTML += `
                 <div id="div-${listId}">
                 <li id="list-${listId}">${input_text.value}</li> <button onclick="completeTask('list-${listId}')" id="completebtn"> Complete </button> <button onclick="deleteTask('div-${listId}')" id="deletebtn"> Delete </button> 
                 </div>`;
-                totalTask++;
                 completedCounter.innerHTML = `<p>Completed ${completed} / ${totalTask}</p>`;
                 listId++;
             }
@@ -54,19 +54,25 @@
                         
         }
 
-        function completeTask(listId,clickId){
+        function completeTask(listId){
             let task = document.getElementById(listId);
             
-                task.style.textDecoration = 'line-through'; 
+            if(completed < totalTask){
                 completed++;
+                task.style.textDecoration = 'line-through'; 
                 completedCounter.innerHTML = `<p>Completed ${completed} / ${totalTask}</p>`;
+            }
+               
                 
         }
 
         function deleteTask(listId){
             let task = document.getElementById(listId);
             task.innerHTML = "";
-            
+            completed--;
+            totalTask--;
+            completedCounter.innerHTML = `<p>Completed ${completed} / ${totalTask}</p>`;
+
         }
     </script>
 </body>
