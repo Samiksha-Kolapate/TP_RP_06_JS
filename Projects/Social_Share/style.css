@@ -1,0 +1,110 @@
+body{
+    background-color: rgb(235, 189, 235);
+    justify-content: center;
+}
+
+.container{
+width: 300px;
+margin: 0 auto;
+padding: 2px 30px 15px 20px;
+background-color: aliceblue;
+border:  solid transparent ;
+border-radius: 10px;
+box-shadow: 0 5px 8px 3px rgb(155, 3, 155);
+}
+
+.container:hover{
+    background-color: rgb(238, 231, 231);
+    color: rgb(0, 0, 0);
+}
+
+.copy-button button{
+    background-color: rgb(198, 93, 212);
+}
+ body h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(188, 40, 214);
+    padding-bottom: 2px 2px 2px 2px;
+ }
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding-bottom: 2px 2px 2px 2px;
+    
+}
+  .social-button button {
+    width: 40px; 
+    height: 40px; 
+    border: none;
+    background: transparent;
+    border-radius: 100px;
+   
+  }
+  
+ .social-button button i {
+    font-size: 30px; 
+  }
+
+  
+  .social-button button:nth-child(1) {
+    color: #4267B2;
+  }
+  
+  .social-button button:nth-child(2) {
+    color: #1DA1F2 ;
+  }
+  .social-button button:nth-child(3) {
+    color: blue;
+    
+  }
+  
+  .social-button button:nth-child(4) {
+    color: #0077B5; 
+  }
+  
+  .social-button button:nth-child(5) {
+    color: #FF0000; 
+  }
+  
+  .social-button button:nth-child(6) {
+    color: #2b3137; 
+  }
+  
+
+h4{
+  padding-bottom: 2px 2px 2px 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.copy-input {
+  position: relative;
+  padding-bottom: 8px;
+}
+
+.copy-input input{
+  width: 255px;
+  padding-bottom: 5px;
+  padding-left: 40px; 
+  border-radius: 5px;
+}
+
+.copy-input button {
+  position: absolute;
+  top: 40%;
+  left: 0px; 
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: transparent;
+}
+
+.copy-button button{
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  border-color: transparent;
+  color: white; 
+  font-weight: bold; 
+}
