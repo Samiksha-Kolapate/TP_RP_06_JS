@@ -38,6 +38,7 @@ let para = document.getElementById("para");
 var indoor_array = [
     {
         id : 0,
+        image : `<img src="img/indoor.webp">`,
         title : "Golden fern plant",
         description : "Ferns are plants that do not have flowers. Ferns generally reproduce by producinspores. Similar to flowering plants, ferns have roots, stems and leaves. Golden fern or pivla fern ibotanically called nephrolepis exaltata. Ferns are the unique plants propagated by spores unlike manplants. Golden fern is plant parents favorite due to it's golden fronds. 5 to 6 hours of indirect tbright sunlight and temperature of 18 to 27oc.",
         soil : "Soils with neutral pH, rich in organic matter and well drained nature",
@@ -47,7 +48,6 @@ var indoor_array = [
         fertilizers  : "Use any well balanced liquid fertilizers once in 3 months, or add bulky organimanures and         slow realising fertilizers while repotting.",
         humidity   : "50 to 60 percent humidity is ideal, misting your plants once in a while will keep thehealthy        and dust free",
         propagation  : "Spores or runners",
-        image : `<img src="img/indoor.webp">`,
             
     },
     {
@@ -61,6 +61,8 @@ var indoor_array = [
         fertilizers  : "Lemon Twist should be repotted after it doubles in size or once a year, whichever comes first. Fresh potting soil has all the nutrients your plant needs, so as long as it’s refreshed yearly, you shouldn’t need to use fertilizer. Remember, plants get their energy from sunlight, not fertilizer!",
         humidity   : "Lemon Twist doesn’t require additional humidity. Plants absorb most water through their root system rather than their leaves, so the best way to provide humidity for your plants is through watering the soil.",
         propagation  : "-",
+        image : `<img src="img/indoor.webp">`,
+
     },
     {
         id : 2,
@@ -73,6 +75,7 @@ var indoor_array = [
         fertilizers  : "Use any well balanced liquid fertilizers once in 3 months, or add bulky organic manures and slow realising fertilizers while repotting.",
         humidity   : "50 to 60 percent humidity is ideal, misting your plants once in a while will keep them healthy and dust free",
         propagation  : "Spores or runners",
+        image : `<img src="img/indoor.webp">`,
 
     },
     {
@@ -86,6 +89,7 @@ var indoor_array = [
         fertilizers  : "Use any well balanced liquid fertilizers once in 3 months, or add bulky organic manures and slow realising fertilizers while repotting.",
         humidity   : "50 to 60 percent humidity is ideal, misting your plants once in a while will keep them healthy and dust free",
         propagation  : "Spores or runners",
+        image : `<img src="img/indoor.webp">`,
 
     },
     {
@@ -99,6 +103,7 @@ var indoor_array = [
         fertilizers  : "Use any well balanced liquid fertilizers once in 3 months, or add bulky organic manures and slow realising fertilizers while repotting.",
         humidity   : "50 to 60 percent humidity is ideal, misting your plants once in a while will keep them healthy and dust free",
         propagation  : "Spores or runners",
+        image : `<img src="img/indoor.webp">`,
 
     },
 ];
@@ -115,6 +120,7 @@ var outdoor_array = [
         fertilizers  : "Use any well balanced liquid fertilizers once in 3 months, or add bulky organimanures and         slow realising fertilizers while repotting.",
         humidity   : "50 to 60 percent humidity is ideal, misting your plants once in a while will keep thehealthy        and dust free",
         propagation  : "Spores or runners",
+        image : `<img src="img/indoor.webp">`,
             
     },
     {
@@ -128,6 +134,7 @@ var outdoor_array = [
         fertilizers  : "Lemon Twist should be repotted after it doubles in size or once a year, whichever comes first. Fresh potting soil has all the nutrients your plant needs, so as long as it’s refreshed yearly, you shouldn’t need to use fertilizer. Remember, plants get their energy from sunlight, not fertilizer!",
         humidity   : "Lemon Twist doesn’t require additional humidity. Plants absorb most water through their root system rather than their leaves, so the best way to provide humidity for your plants is through watering the soil.",
         propagation  : "-",
+        image : `<img src="img/indoor.webp">`,
     },
     {
         id : 2,
@@ -140,6 +147,7 @@ var outdoor_array = [
         fertilizers  : "Use any well balanced liquid fertilizers once in 3 months, or add bulky organic manures and slow realising fertilizers while repotting.",
         humidity   : "50 to 60 percent humidity is ideal, misting your plants once in a while will keep them healthy and dust free",
         propagation  : "Spores or runners",
+        image : `<img src="img/indoor.webp">`,
 
     },
     {
@@ -153,6 +161,7 @@ var outdoor_array = [
         fertilizers  : "Use any well balanced liquid fertilizers once in 3 months, or add bulky organic manures and slow realising fertilizers while repotting.",
         humidity   : "50 to 60 percent humidity is ideal, misting your plants once in a while will keep them healthy and dust free",
         propagation  : "Spores or runners",
+        image : `<img src="img/indoor.webp">`,
 
     },
     {
@@ -166,6 +175,7 @@ var outdoor_array = [
         fertilizers  : "Use any well balanced liquid fertilizers once in 3 months, or add bulky organic manures and slow realising fertilizers while repotting.",
         humidity   : "50 to 60 percent humidity is ideal, misting your plants once in a while will keep them healthy and dust free",
         propagation  : "Spores or runners",
+        image : `<img src="img/indoor.webp">`,
 
     },
     {
@@ -179,6 +189,7 @@ var outdoor_array = [
         fertilizers  : "Use any well balanced liquid fertilizers once in 3 months, or add bulky organic manures and slow realising fertilizers while repotting.",
         humidity   : "50 to 60 percent humidity is ideal, misting your plants once in a while will keep them healthy and dust free",
         propagation  : "Spores or runners",
+        image : `<img src="img/indoor.webp">`,
 
     },
     {
@@ -192,6 +203,7 @@ var outdoor_array = [
         fertilizers  : "Use any well balanced liquid fertilizers once in 3 months, or add bulky organic manures and slow realising fertilizers while repotting.",
         humidity   : "50 to 60 percent humidity is ideal, misting your plants once in a while will keep them healthy and dust free",
         propagation  : "Spores or runners",
+        image : `<img src="img/indoor.webp">`,
 
     },
 ];
@@ -240,7 +252,7 @@ slct2.onchange = function(){
 
 function addtoPara(arr){
     
-    //let indoorP = document.createElement("p");
+    //let P = document.createElement("p");
     let P = document.createElement("option");
         P.text += arr.image + arr.description + " " + arr.soil + " " + arr.water + " " + arr.sunlight + " " + arr.temperature + " " + arr.fertilizers + " " + arr.humidity + " " + arr.propagation ;
        // indoorP.value = arr.description;
