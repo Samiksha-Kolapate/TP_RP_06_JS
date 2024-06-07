@@ -8,43 +8,282 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
 }
- .container{
-    display: fleX;
+
+
+.navbar{
+    display: flex;
+    height: 60px;
+    background-color: #018749;
+    color: white;
+    align-items: center;
     width: 100%;
-    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    background-image: url(img/logo5.PNG);
+    background-size: contain;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    align-items: start;
+    justify-content: start;
+    margin-left: 5px;
+}
+.nav-logo{
+    width: 110px;
+    height: 50px;
+}
+
+#navlogo-h3{
+    color: white;
+    font-size: 30px;
+    padding: 5px;
+    margin-left: 2px;
+}
+
+.border{
+    border: 1px solid transparent;
+}
+
+.border:hover{
+    border: 1px solid white;
+}
+
+.menubar {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    margin: 5px;
+    top: 10px;
+    right: 15px; 
+}
+
+.menu{
+    width: 30px;
+    height: 2px;
+    background: #fff;
+    margin: 3px 3px 3px 3px;
+}
+
+
+ .container{
+    width: 100%;
+    padding: 20px;
     min-height: 100vh;
-    background: white;
-    border: 1px solid #018749;
+    background-color: #d9fbe4;
 }
 
 .plant-care{
     display: flex;
-    flex-direction: column;
-    max-width: 540px;
-    height: fit-content;
-    background: #fff;
-    margin-left: 400px;
-    margin-top: -10px;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+   /*  max-width: 540px; */
+    column-gap: 200px;
     padding: 40px 30px 70px;
     border-radius: 10px;
 }
 
-.plant-care h2{
-    display: flex;
-    align-items: center;
-    color: #018749;
-    margin-bottom: 10px;
-    text-align: center;
-}
 
-.plant-care h2 img{
-    width: 35px;
-    height: 35px;
-    margin-left: 10px;
-}
 
 .care-list {
     display: flex;
     flex-direction: column;
-    background: #fff;
+    gap: 5px;
 }
+
+#list,li{
+    list-style-type: none;
+}
+
+
+select,option {
+    width: 550px;
+    height: 100px;
+    row-gap: 5px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #018749;
+    color: white;
+
+}
+
+.cover-img1 img{
+    height: 600px;
+    width: 600px;
+    background-size: cover;
+    border-radius: 50%;
+    top: -200px;
+}
+
+.plant-care-bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 200px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+
+.cover-img2 img{
+    height: 300px;
+    width: 500px;
+    background-size: cover;
+    border-radius: 10%;
+    top: -700px;
+}
+
+.card-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: max-content;
+    background-color: #d9fbe4;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+#show-plantsList li{
+    font-size: medium;
+
+}
+
+/* indoor_plants.html */
+#indoor-array-image img{
+    width: 450px;
+    height: 400px;
+    align-content: center;
+}
+
+/* outdoor_plants.html */
+#outdoor-array-image img{
+    width: 450px;
+    height: 400px;
+    align-content: center;
+}
+
+
+.container-fluid {
+    border: 1px solid gray;
+    
+}
+
+#guide h1,h2{
+    text-align: center;
+}
+
+
+.clock {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+}
+ 
+h1 {
+    font-size: 2rem;
+    color: green;
+}
+ 
+h3 {
+    font-size: 1.0rem;
+    color: #333;
+}
+ 
+.time {
+    font-size: 2rem;
+    margin: 20px 0;
+    color: #333;
+}
+ 
+.input-row {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+ 
+.input-field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+input[type="date"],
+input[type="time"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 200px;
+}
+ 
+.button-row {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+ 
+#setAlarm,
+#updateTime {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+ 
+#setAlarm:hover,
+#updateTime:hover {
+    background-color: #0056b3;
+}
+ 
+.alarms {
+    margin-top: 20px;
+    text-align: left;
+    color: #333;
+}
+ 
+.alarm {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation: fadeIn 0.5s ease-in-out;
+    font-size: 14px;
+}
+ 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+ 
+    to {
+        opacity: 1;
+    }
+}
+

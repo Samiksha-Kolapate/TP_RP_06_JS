@@ -1,6 +1,6 @@
 let plants = ["Indoor Plants","Outdoor Plants"];
 let guide = ["Your Complete Plant Care Guide for Gardening Enthusiasts","Choosing the Right Plants","Essential Plant Care Tasks","Understanding Plant Needs","Troubleshooting Common Plant Problems"]
-let water_rem = ["Please water a plant"];
+let waterRem = ["Please water a plant"];
 
 let slct1 = document.getElementById("slct1");
 let slct2 = document.getElementById("slct2");
@@ -52,7 +52,7 @@ slct2.onchange = function(){
 
 
 
-water_rem.forEach(function setReminder(item){
+waterRem.forEach(function setReminder(item){
     let option = document.createElement("option");
     option.text = item;
     //option.value = item;

@@ -3,43 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/icon.png">
     <link rel="stylesheet" href="style.css">
     <title>Plants Care</title>
 </head>
 <body>
-    <div class="container">
-        <div class="plant-care">
-            <h2>Plants Care <img src="img/logo5.PNG" alt=""></h2>
-            <div class="care-list">
-                <ul>
-                    <li>
-                        <select style="width:200px" id="slct1">
-                            <option>Search plants here</option>
-                        </select>
-                        <div id="link1" >
+    <header>
+        <div class="navbar">
+            <div class="logo">
 
-                        </div>
-                    </li>
-                    <li>
-                        <select style="width:200px" id="slct2">
-                            <a href="guide.html"><option>Guidelines for plant care</option></a>
-                        </select>
-                        <div id="link2" >
-
-                        </div>
-                    </li>
-                    <li>
-                        <select style="width:200px" id="slct3">
-                           <option>Water Reminder</option>
-                        </select>
-                        <div id="link3" >
-
-                        </div>
-                    </li>
-                </ul>
+            </div>
+            <div class="nav-logo border">
+                <h3 id="navlogo-h3">PlantsCare</h3>
+            </div> 
+            <div class="menubar border">
+                <div class="menu"></div>
+                <div class="menu"></div>
+                <div class="menu"></div>
             </div>
         </div>
-    </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="plantation">
+                <div class="plant-care">
+                    <!-- <h2><img src="img/logo5.PNG" alt="">Plants Care </h2> -->
+                    <div class="care-list">
+                    <h4><i style="color: #014e2a; font-size: 25px;">Celebrate life by taking care of your plants...</i></h4>
+                    <br>
+                        <ul id="list">
+                            <li>
+                                <select id="slct1">
+                                    <option>Search plants here</option>
+                                </select>
+                                <div id="link1" >
+        
+                                </div>
+                            </li>
+                            <br>
+                            <li>
+                                <select id="slct2">
+                                    <a href="guide.html"><option>Guidelines for plant care</option></a>
+                                </select>
+                                <div id="link2" >
+        
+                                </div>
+                            </li>
+                            <br>
+                            <li>
+                                <select id="slct3">
+                                   <option>Water Reminder</option>
+                                </select>
+                                <div id="link3" >
+        
+                                </div>
+                            </li>
+                            <br>
+                        </ul>
+                    </div>
+                    
+                    <div class="cover-img1">
+                        <img src="https://advance.lease/background.webp" alt="">
+                    </div>
+                    
+                </div>
+                <div class="plant-care-bottom">
+                    <div class="cover-img2">
+                        <img src="https://thehabitat.mblycdn.com/th/resized/2023/11/730x487/shutterstock_535494109.jpg" alt="">
+                    </div>
+                    <div class="cover-img3">
+                        <img src="https://www.webgardner.com/wp-content/uploads/2021/08/Best-Gardening-Gloves-For-Small-Hands.jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+            
+
+        </div>
+    </main>
+    
     <script src="script.js"></script>
 </body>
 </html>
