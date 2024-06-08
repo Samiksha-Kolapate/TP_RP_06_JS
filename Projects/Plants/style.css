@@ -74,6 +74,25 @@
     padding: 20px;
     min-height: 100vh;
     background-color: #d9fbe4;
+   
+}
+
+.plantation-container{
+    width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+    background-color: #d9fbe4;
+    background-image: url("https://cdn.shopify.com/s/files/1/0549/5806/3713/files/japandi_fake_plants_ideas.jpg?v=1706729002");
+    background-size: cover;
+}
+
+.guide-container{
+    width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+    background-color: #d9fbe4;
+   /*  background-image: url("https://th.bing.com/th/id/OIP.m8gxwuaujdLmhKMozXkK0wHaEO?w=1344&h=768&rs=1&pid=ImgDetMain");
+    background-size: cover; */
 }
 
 .plant-care{
@@ -154,12 +173,35 @@ select,option {
 
 a:link{
     text-decoration: none;
+    font-size: medium;
+    color: black;
 }
+
+.card-body-plants {
+   /*  background-image: url("https://cdn.shopify.com/s/files/1/0260/3728/8994/products/image_20d964f6-fc64-41c9-8991-84b500db773b_1024x1024.heic?v=1653085556"); */
+   background-image: url("https://c0.wallpaperflare.com/preview/933/936/941/green-leaf-plant.jpg"); 
+   background-size: cover;
+    width: 100%;
+    height: 10%;
+}
+
+
 
 #show-plantsList li{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
     font-size: medium;
+}
+
+#show-plantsList li>a{
+    color: #014e2a;
+    text-decoration: none;
 
 }
+
+
 
 /* indoor_plants.html */
 #indoor-array-image img{

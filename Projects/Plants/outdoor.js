@@ -12,7 +12,7 @@ var outdoorArray = [
         fertilizers  : "Use any well balanced liquid fertilizers once in 3 months, or add bulky organimanures and         slow realising fertilizers while repotting.",
         humidity   : "50 to 60 percent humidity is ideal, misting your plants once in a while will keep thehealthy        and dust free",
         propagation  : "Spores or runners",
-        image : `<img src="https://th.bing.com/th/id/OIP.SMOyo2u2BjqCI3ScJKCYlgHaI8?rs=1&pid=ImgDetMain" width="100px" height="100px">`,
+        image : `<img src="https://th.bing.com/th/id/OIP.SMOyo2u2BjqCI3ScJKCYlgHaI8?rs=1&pid=ImgDetMain" width="200px" height="200px">`,
             
     },
     {
@@ -26,7 +26,7 @@ var outdoorArray = [
         fertilizers  : "Lemon Twist should be repotted after it doubles in size or once a year, whichever comes first. Fresh potting soil has all the nutrients your plant needs, so as long as it’s refreshed yearly, you shouldn’t need to use fertilizer. Remember, plants get their energy from sunlight, not fertilizer!",
         humidity   : "Lemon Twist doesn’t require additional humidity. Plants absorb most water through their root system rather than their leaves, so the best way to provide humidity for your plants is through watering the soil.",
         propagation  : "-",
-        image : `<img src="https://th.bing.com/th/id/OIP.z7buUd3Z_dOuvAGaTKQKYAAAAA?rs=1&pid=ImgDetMain" width="100px" height="100px">`,
+        image : `<img src="https://th.bing.com/th/id/OIP.z7buUd3Z_dOuvAGaTKQKYAAAAA?rs=1&pid=ImgDetMain" width="200px" height="200px">`,
 
     },
     {
@@ -40,7 +40,7 @@ var outdoorArray = [
         fertilizers  : "Use any well balanced liquid fertilizers once in 3 months, or add bulky organic manures and slow realising fertilizers while repotting.",
         humidity   : "50 to 60 percent humidity is ideal, misting your plants once in a while will keep them healthy and dust free",
         propagation  : "Spores or runners",
-        image : `<img src="https://3.bp.blogspot.com/-Eeq7gI3vyvo/TjcaXC8kivI/AAAAAAAABck/kDTxH7ayDHI/s1600/IMG_3071.JPG" width="100px" height="100px">`,
+        image : `<img src="https://3.bp.blogspot.com/-Eeq7gI3vyvo/TjcaXC8kivI/AAAAAAAABck/kDTxH7ayDHI/s1600/IMG_3071.JPG" width="200px" height="200px">`,
 
     },
     {
@@ -54,7 +54,7 @@ var outdoorArray = [
         fertilizers  : "Use any well balanced liquid fertilizers once in 3 months, or add bulky organic manures and slow realising fertilizers while repotting.",
         humidity   : "50 to 60 percent humidity is ideal, misting your plants once in a while will keep them healthy and dust free",
         propagation  : "Spores or runners",
-        image : `<img src="https://th.bing.com/th/id/OIP.mAENvdl1bAwTFugNcRo43AHaIl?rs=1&pid=ImgDetMain" width="100px" height="100px">`,
+        image : `<img src="https://th.bing.com/th/id/OIP.mAENvdl1bAwTFugNcRo43AHaIl?rs=1&pid=ImgDetMain" width="200px" height="200px">`,
 
 
     },
@@ -69,7 +69,7 @@ var outdoorArray = [
         fertilizers  : "Use any well balanced liquid fertilizers once in 3 months, or add bulky organic manures and slow realising fertilizers while repotting.",
         humidity   : "50 to 60 percent humidity is ideal, misting your plants once in a while will keep them healthy and dust free",
         propagation  : "Spores or runners",
-        image : `<img src="https://th.bing.com/th/id/R.7f6c0395e06d8e7455aa534ef81d87b0?rik=Goe7PEMaciyg1g&riu=http%3a%2f%2ftipsplants.com%2fsites%2fdefault%2ffiles%2fpeace_lily_outdoors_0.jpg&ehk=Qin3g%2fBKZz4qD98UaHDTgsOLFZsxxsfFhDwAex4%2f%2fd8%3d&risl=&pid=ImgRaw&r=0" width="100px" height="100px">`,
+        image : `<img src="https://th.bing.com/th/id/R.7f6c0395e06d8e7455aa534ef81d87b0?rik=Goe7PEMaciyg1g&riu=http%3a%2f%2ftipsplants.com%2fsites%2fdefault%2ffiles%2fpeace_lily_outdoors_0.jpg&ehk=Qin3g%2fBKZz4qD98UaHDTgsOLFZsxxsfFhDwAex4%2f%2fd8%3d&risl=&pid=ImgRaw&r=0" width="200px" height="200px">`,
 
 
     },
@@ -84,7 +84,7 @@ var outdoorArray = [
         fertilizers  : "Use any well balanced liquid fertilizers once in 3 months, or add bulky organic manures and slow realising fertilizers while repotting.",
         humidity   : "50 to 60 percent humidity is ideal, misting your plants once in a while will keep them healthy and dust free",
         propagation  : "Spores or runners",
-        image : `<img src="https://th.bing.com/th/id/OIP.5iPMPz3ONko7uYI9yEi6WQHaE8?rs=1&pid=ImgDetMain" width="100px" height="100px">`,
+        image : `<img src="https://th.bing.com/th/id/OIP.5iPMPz3ONko7uYI9yEi6WQHaE8?rs=1&pid=ImgDetMain" width="200px" height="200px">`,
 
 
     },
@@ -99,7 +99,7 @@ var outdoorArray = [
         fertilizers  : "Use any well balanced liquid fertilizers once in 3 months, or add bulky organic manures and slow realising fertilizers while repotting.",
         humidity   : "50 to 60 percent humidity is ideal, misting your plants once in a while will keep them healthy and dust free",
         propagation  : "Spores or runners",
-        image : `<img src="https://th.bing.com/th/id/OIP.9T4rHGTw7bBfKo4JDYx60AHaHa?w=800&h=800&rs=1&pid=ImgDetMain" width="100px" height="100px">`,
+        image : `<img src="https://th.bing.com/th/id/OIP.9T4rHGTw7bBfKo4JDYx60AHaHa?w=800&h=800&rs=1&pid=ImgDetMain" width="200px" height="200px">`,
 
 
     },
