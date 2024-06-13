@@ -18,10 +18,10 @@ slct1.onchange = function(){
     let link1 = document.getElementById("link1");
 
     if(this.value == "Indoor Plants"){
-        link1.innerHTML = `<a href="indoor.html" target="_blank">Here are some Indoor plants for you</a>`
+        link1.innerHTML = `<a href="indoor.html" target="_blank"><b>Here are some Indoor plants for you</b></a>`
     }
     if(this.value == "Outdoor Plants"){
-        link1.innerHTML = `<a href="outdoor.html" target="_blank">Here are some Outdoor plants for you</a>`
+        link1.innerHTML = `<a href="outdoor.html" target="_blank"><b>Here are some Outdoor plants for you</b></a>`
     }
 }
 
