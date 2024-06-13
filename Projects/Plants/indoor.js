@@ -114,14 +114,14 @@ function indoorPlantsDetails() {
         if(i==param){
             indoorArray_title.innerHTML = `<h1>${indoorArray[param].title}</h1>`;
             indoorArray_image.innerHTML = `${indoorArray[param].image}`;
-            indoorArray_description.innerHTML = `<p>${indoorArray[param].description}</p>`;
-            indoorArray_soil.innerHTML = `<p>${indoorArray[param].soil}</p>`;
-            indoorArray_water.innerHTML = `<p>${indoorArray[param].water}</p>`;
-            indoorArray_sunlight.innerHTML = `<p>${indoorArray[param].sunlight}</p>`;
-            indoorArray_temperature.innerHTML = `<p>${indoorArray[param].temperature}</p>`;
-            indoorArray_fertilizers.innerHTML = `<p>${indoorArray[param].fertilizers}</p>`;
-            indoorArray_humidity.innerHTML = `<p>${indoorArray[param].humidity}</p>`;
-            indoorArray_propagation.innerHTML = `<p>${indoorArray[param].propagation}</p>`;
+            indoorArray_description.innerHTML = `<h3>${indoorArray[param].description}</h3>`;
+            indoorArray_soil.innerHTML = `<h3>${indoorArray[param].soil}</h3>`;
+            indoorArray_water.innerHTML = `<h3>${indoorArray[param].water}</h3>`;
+            indoorArray_sunlight.innerHTML = `<h3>${indoorArray[param].sunlight}</h3>`;
+            indoorArray_temperature.innerHTML = `<h3>${indoorArray[param].temperature}</h3>`;
+            indoorArray_fertilizers.innerHTML = `<h3>${indoorArray[param].fertilizers}</h3>`;
+            indoorArray_humidity.innerHTML = `<h3>${indoorArray[param].humidity}</h3>`;
+            indoorArray_propagation.innerHTML = `<h3>${indoorArray[param].propagation}</h3>`;
         }
     }
 }
