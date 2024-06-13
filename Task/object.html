@@ -1,49 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flipkart - My Cart</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
     <script>
-        var products = [
-            {
-                title : "Samsung Galaxy S21 FE 5G",
-                color : "Olive",
-                storage : "256 GB",
-                rating : 4.5,
-                total_rating : 5,
-                rated_by : 139545,
-                currency : "INR",
-                price : 37988,
-                actual_price : 74999,
-                discount : "49%"
-            },
-            {
-                title : "Prestige by Prestige PGMFB Toast",
-                color : "Black",
-                rating : 4.5,
-                total_rating : 5,
-                rated_by : 46424,
-                currency : "INR",
-                price : 1299,
-                actual_price : 1595,
-                discount : "18%"
-            },
-            {
-                title : "Bajaj Majesty DX 6 1000 W Dry Iron",
-                color : "White",
-                rating : 4,
-                total_rating : 5,
-                rated_by : 305773,
-                currency : "INR",
-                price : 610,
-                actual_price : 920,
-                discount : "33%"
-            }
-        ];
-        console.log(products);
+
+
+      // Creation of Object
+      var studentDetails = {
+        name: "saroj",
+        student_id: "TP_ST_01",
+        courses: ["React", "NODEJS"],
+        batch_code: ["TP_RP_06"],
+        skills: ["HTML", "CSS", "JS"],
+        placed: false,
+
+        addCourse: function (course) {
+          studentDetails.courses.push(course);
+        },
+      };
+
+    //   Object.freeze(studentDetails);
+
+      console.log(studentDetails);
+
+      // Accessing Value
+      console.log("Student Id", studentDetails.student_id);
+      console.log("Name", studentDetails.name);
+
+      console.log("Courses", studentDetails["courses"]);
+
+
+
+      // Change Object Value
+
+      studentDetails.placed = true;
+
+      // New Value Add
+    
+      studentDetails["age"] = 25;
+
+      console.log("Placed", studentDetails.placed);
+
+      // delete
+      delete studentDetails.age;
+      
+      
+      studentDetails.addCourse(".Net");
+      
+      console.log(studentDetails);
+
+
+      var products = [
+        {
+            title: "Razer Blackshark",
+            price: 199,
+            currency: "USD",
+            listing_date: "",
+            vendor: "Razer",
+            rating: 4,
+            total_rating: 5,
+            rating_by: 22,
+            bought: "200+",
+        },
+        {
+            title: "Razer Blackshark",
+            price: 199,
+            currency: "USD",
+            listing_date: "",
+            vendor: "Razer",
+            rating: 4,
+            total_rating: 5,
+            rating_by: 22,
+            bought: "200+",
+        },
+        {
+            title: "Razer Blackshark",
+            price: 199,
+            currency: "USD",
+            listing_date: "",
+            vendor: "Razer",
+            rating: 4,
+            total_rating: 5,
+            rating_by: 22,
+            bought: "200+",
+        },
+        
+      ]
     </script>
-</body>
+  </body>
 </html>

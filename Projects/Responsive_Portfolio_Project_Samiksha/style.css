@@ -381,7 +381,7 @@ h3{
 }
 .project-box>i{
     font-size: 50px;
-    color: #00B5E7;
+    color: #4864b1;
     margin-bottom: 25px;
 }
 .project-box label{
@@ -487,7 +487,7 @@ textarea{
     color: var(--color-white);
 }
 .form-button>.btn:hover{
-    background: #00B5E7;
+    background: #4864b1;
 }
 .form-button i{
     font-size: 18px;
