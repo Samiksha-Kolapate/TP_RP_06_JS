@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="container">
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Samiksha</p>
+                <span>.</span>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <a href="https://drive.google.com/file/d/1Vz7e28auTw7NNGKp-9rssn-wCwwDrCKm/view" target="_blank"><button class="btn">Download CV <i class="fa-regular fa-file"></i></button></a>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+
+        <main class="wrapper">
+            <!-- -------------- FEATURED BOX ---------------- -->
+            <section class="featured-box" id="home">
+               <div class="featured-text">
+                 <div class="featured-text-card">
+                     <span>Samiksha Zore</span>
+                 </div>
+                 <div class="featured-name">
+                     <p>I'm Samiksha Zore</p>
+                 </div>
+                 <div class="featured-text-info">
+                     <p>Frontend developer with a passion for creating visually stunning
+                        and user-friendly websites.
+                     </p>
+                 </div>
+                 <div class="featured-text-btn">
+                     <button class="btn blue-btn">Hire Me</button>
+                     <a href="https://drive.google.com/file/d/1Vz7e28auTw7NNGKp-9rssn-wCwwDrCKm/view" target="_blank"><button class="btn">Download CV <i class="fa-regular fa-file"></i></button></a>
+                 </div>
+                 <div class="social_icons">
+                     <div class="icon"><a href="https://www.linkedin.com/in/samiksha-z-5aaa46163/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></div>
+                     <div class="icon"><a href="https://www.hackerrank.com/profile/kolapatesamiksha/" target="_blank"><i class="fa-brands fa-hackerrank"></i></a></div>
+                     <div class="icon"><a href="https://www.github.com/Samiksha-Kolapate/" target="_blank"><i class="fa-brands fa-github"></i></a></div>
+                 </div>
+               </div>
+               <div class="featured-image">
+                 <div class="image">
+                     <img src="sam2.jpeg" alt="avatar">
+                 </div>
+               </div>
+               
+     
+            </section>
+            <!-- -------------- ABOUT BOX ---------------- -->
+            <section class="section" id="about">
+               <div class="top-header">
+                 <h1>About Me</h1>
+               </div>
+               <div class="row">
+                 <div class="col">
+                     <div class="about-info">
+                         <h3>My introduction</h3>
+                         <p>I am well-versed in HTML, CSS and JavaScript ,which allows me to implement interactive web pages.
+                            
+                         </p>
+                         <div class="about-btn">
+                            <a href="https://drive.google.com/file/d/1Vz7e28auTw7NNGKp-9rssn-wCwwDrCKm/view" target="_blank"><button class="btn">Download CV <i class="fa-solid fa-file-arrow-down"></i></button></a>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col">
+                     <div class="skills-box">
+                         <div class="skills-header">
+                             <h3>Frontend</h3>
+                         </div>
+                         <div class="skills-list">
+                             <span>HTML</span>
+                             <span>CSS</span>
+                             <span>Bootstrap</span>
+                             <span>JavaScript</span>
+                             <span>React</span>
+                         </div>
+                     </div>
+                     <div class="skills-box">
+                         <div class="skills-header">
+                             <h3>Backend</h3>
+                         </div>
+                         <div class="skills-list">
+                             <span>NodeJs</span>
+                             <span>Express</span>
+                             <span>JAVA</span>
+                         </div>
+                     </div>
+                     <div class="skills-box">
+                         <div class="skills-header">
+                             <h3>Database</h3>
+                         </div>
+                         <div class="skills-list">
+                             <span>MongoDB</span>
+                             <span>MySQL</span>
+                         </div>
+                     </div>
+                 </div>
+               </div>
+            </section>
+     
+            <!-- -------------- PROJECT BOX ---------------- -->
+     
+            <section class="section" id="projects">
+               <div class="top-header">
+                   <h1>Projects</h1>
+               </div>
+               <div class="project-container">
+                 <div class="project-box">
+                     <i class="uil uil-briefcase-alt"></i>
+                     <label>To-Do list using HTML,CSS,JS</label>
+                     <label>Plant care app using HTML,CSS,JS</label>
+                 </div>
+                 <div class="project-box">
+                     <i class="uil uil-award"></i>
+                     <h3>Experience</h3>
+                     <label>2 Years in automotive field</label>
+                 </div>
+               </div>
+            </section>
+     
+            <!-- -------------- CONTACT BOX ---------------- -->
+     
+            <section class="section" id="contact">
+               <div class="top-header">
+                 <h1>Get in touch</h1>
+               </div>
+               <div class="row">
+                  <div class="col">
+                     <div class="contact-info">
+                         <h2>Find Me <i class="fa-solid fa-download"></i></h2>
+                         <p><i class="uil uil-envelope"></i> Email: kolapatesamiksha@gmail.com</p>
+                         <p><i class="uil uil-phone"></i> Phone: +91 7666809302</p>
+                     </div>
+                  </div>
+                  <div class="col">
+                     <div class="form-control">
+                         <div class="form-inputs">
+                             <input type="text" class="input-field" placeholder="Name">
+                             <input type="text" class="input-field" placeholder="Email">
+                         </div>
+                         <div class="text-area">
+                             <textarea placeholder="Message"></textarea>
+                         </div>
+                         <div class="form-button">
+                             <button class="btn">Send <i class="uil uil-message"></i></button>
+                         </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+     
+        </main>
+
+        <!-- --------------- FOOTER --------------- -->
+        <footer>
+        <div class="top-footer">
+            <p>Samiksha Zore</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">About</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+            <div class="icon"><a href="https://www.linkedin.com/in/samiksha-z-5aaa46163/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></div>
+            <div class="icon"><a href="https://www.hackerrank.com/profile/kolapatesamiksha/" target="_blank"><i class="fa-brands fa-hackerrank"></i></a></div>
+            <div class="icon"><a href="https://www.github.com/Samiksha-Kolapate/" target="_blank"><i class="fa-brands fa-github"></i></a></div>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Samiksha Zore</a> - All rights reserved</p>
+        </div>
+        </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    </div>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+</html>

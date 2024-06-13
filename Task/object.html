@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+
+
+      // Creation of Object
+      var studentDetails = {
+        name: "saroj",
+        student_id: "TP_ST_01",
+        courses: ["React", "NODEJS"],
+        batch_code: ["TP_RP_06"],
+        skills: ["HTML", "CSS", "JS"],
+        placed: false,
+
+        addCourse: function (course) {
+          studentDetails.courses.push(course);
+        },
+      };
+
+    //   Object.freeze(studentDetails);
+
+      console.log(studentDetails);
+
+      // Accessing Value
+      console.log("Student Id", studentDetails.student_id);
+      console.log("Name", studentDetails.name);
+
+      console.log("Courses", studentDetails["courses"]);
+
+
+
+      // Change Object Value
+
+      studentDetails.placed = true;
+
+      // New Value Add
+    
+      studentDetails["age"] = 25;
+
+      console.log("Placed", studentDetails.placed);
+
+      // delete
+      delete studentDetails.age;
+      
+      
+      studentDetails.addCourse(".Net");
+      
+      console.log(studentDetails);
+
+
+      var products = [
+        {
+            title: "Razer Blackshark",
+            price: 199,
+            currency: "USD",
+            listing_date: "",
+            vendor: "Razer",
+            rating: 4,
+            total_rating: 5,
+            rating_by: 22,
+            bought: "200+",
+        },
+        {
+            title: "Razer Blackshark",
+            price: 199,
+            currency: "USD",
+            listing_date: "",
+            vendor: "Razer",
+            rating: 4,
+            total_rating: 5,
+            rating_by: 22,
+            bought: "200+",
+        },
+        {
+            title: "Razer Blackshark",
+            price: 199,
+            currency: "USD",
+            listing_date: "",
+            vendor: "Razer",
+            rating: 4,
+            total_rating: 5,
+            rating_by: 22,
+            bought: "200+",
+        },
+        
+      ]
+    </script>
+  </body>
+</html>
