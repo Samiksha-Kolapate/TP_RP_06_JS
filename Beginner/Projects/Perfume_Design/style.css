@@ -9,6 +9,7 @@ body{
  }
   .container {
     display: flex;
+    flex-direction: column;
     position: relative;
     background-color: rgb(243, 164, 177);
     border-radius: 10px;
