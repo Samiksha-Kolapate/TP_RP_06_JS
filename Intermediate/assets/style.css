@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,600;1,700;1,800&family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800&family=Poppins&display=swap');
+*{
+    /* CSS Resetting */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+li{
+    list-style-type: none;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(65, 65, 65);
+}
+main .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: fit-content;
+    border: 3px solid white;
+    border-radius: 5px;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    gap: 2px;
+    padding: 16px 48px;
+
+
+}
+
+
+.form-input{
+    display: flex;
+    width: 100%;
+    margin-bottom: 0.7rem;
+    gap: 1rem;
+}
+
+input{
+    width: 100%;
+    height: 40px;
+    background-color: #6A737A;
+    padding: 0.7rem 1rem;
+    color: #F7F6FB;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+input:focus{
+    border: 2px solid #1cee96;
+}
+
+
+
+.button{
+    text-align: center;
+    background-color: #1cee96;
+    margin-top: 15px;
+    padding: 10px 15px ;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Navbar starts */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: navy;
+    padding: 10px 20px;
+    color: white;
+    width: 100%;
+    height: 60px;
+}
+
+.nav > div > ul {
+    display: flex;
+    gap: 25px;
+}
+
+
+/* Navbar ends */

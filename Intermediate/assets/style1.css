@@ -1,0 +1,44 @@
+/* Global selector */
+
+* {
+    /* CSS Resetting */
+    padding: 0;
+    margin: 0;
+    color: red;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+html , body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Tag selector */
+h1,label,input{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* input {
+    color: peru;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 20px;
+} */
+
+/* Id selector */
+
+#title{
+    color: blue;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+/* Class selector => multiple times styling */
+.form-input {
+    color: peru;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 20px;
+}
+
